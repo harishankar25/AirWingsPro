@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style>
+        body {
+            background-image: url('image/aero_1.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px; /* Increased container width for better content alignment */
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            color: #333;
+            font-size: 24px; /* Increased font size for the heading */
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold; /* Added font weight for better visibility */
+            transition: color 0.3s; /* Smooth color transition on hover */
+        }
+
+        a:hover {
+            color: #0056b3; /* Darker blue color on hover */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px; /* Increased padding for better button size */
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s; /* Smooth transitions for button hover */
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .btn-success:hover {
+            background-color: #1e862c; /* Darker green on hover */
+        }
+
+        .copyright {
+            color: grey;
+            margin-top: 20px; /* Added margin for better spacing */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Welcome to my Website</h3>
+        <p>Explore your options:</p>
+        <a href="showReg"><button class="btn btn-success">Create a New Account</button></a>
+        <a href="showLoginPage"><button class="btn btn-primary">Login</button></a>
+        <div class="copyright">
+            &copy; 2023 Hari Shankar. All Rights Reserved.
+        </div>
+    </div>
+</body>
+</html>
